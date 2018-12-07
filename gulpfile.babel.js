@@ -83,7 +83,7 @@ function runServer() {
  * Run hugo and build the site
  */
 function buildSite(cb, options, environment = "development") {
-  const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
+  let args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
   const isPreview = args.includes('--buildDrafts');
 
   if (isPreview) {
