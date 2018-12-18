@@ -1,4 +1,4 @@
 +++
-title = "Odd or Even"
+title = "Odd or Even | MathBRIX"
 url = "/skills/odd-or-even"
 +++

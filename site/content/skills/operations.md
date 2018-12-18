@@ -1,4 +1,4 @@
 +++
-title = "Operations"
+title = "Operations | MathBRIX"
 url = "/skills/operations"
 +++

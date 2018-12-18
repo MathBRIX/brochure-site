@@ -1,4 +1,4 @@
 +++
-title = "Number Recognition"
+title = "Number Recognition | MathBRIX"
 url = "/skills/number-recognition"
 +++

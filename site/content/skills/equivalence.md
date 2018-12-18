@@ -1,4 +1,4 @@
 +++
-title = "Equivalence"
+title = "Equivalence | MathBRIX"
 url = "/skills/equivalence"
 +++

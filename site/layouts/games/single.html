@@ -28,7 +28,7 @@
     </div>
   </div>
 
-  <h1 class="f3 f2-ns normal ttu tracked black">{{ .Title }}</h1>
+  <h1 class="f3 f2-ns normal ttu tracked black">{{ .Params.pagetitle }}</h1>
 
   <div class="flex">
     <iframe id="game-demo" class="flex-auto bn" src="https://play.mathbrix.com?game={{ .Params.gametype }}&subgame={{ .Params.subgametype }}&demo=true"></iframe>
@@ -46,19 +46,22 @@
     </p>
   </div>
 
-  <div class="mt5">
+  <h2>Purpose</h2>
+  <p class="f5 f4-ns">{{ .Params.pagedescription }}</p>
+
+  <div class="mt4">
     <h2>Standards Addressed</h2>
     {{ $pageData := index .Site.Data.games .Params.slug }}
     <table class="collapse ba br2 b--black-10 pv2 ph3">
       <tbody>
         <tr class="striped--light-gray">
-          <th class="pv2 ph3 tl f5 ttu">Standards Body</th>
-          <th class="pv2 ph3 tl f5 ttu">Codes</th>
+          <th class="pv2 ph3 tl f5 f4-ns">Standards Body</th>
+          <th class="pv2 ph3 tl f5 f4-ns">Codes</th>
         </tr>
         {{ range $pageData.standards }}
           <tr class="striped--light-gray">
-            <td class="pv2 ph3 f5">{{ .body }}</td>
-            <td class="pv2 ph3 f5">{{ delimit .codes ", " }}</td>
+            <td class="pv2 ph3 f5 f4-ns">{{ .body }}</td>
+            <td class="pv2 ph3 f5 f4-ns">{{ delimit .codes ", " }}</td>
           </tr>
         {{ end }}
       </tbody>

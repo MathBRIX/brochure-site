@@ -1,6 +1,8 @@
 +++
-title = "Forward, Backward: Commutative property of addition (Dragging)"
-description = "Forward, Backward: Commutative property of addition (Dragging)"
+title = "Learn the commutative property of addition | MathBRIX"
+pagetitle = "Forward, Backward: Commutative property of addition (Dragging)"
+description = "This activity presents the commutative property of addition by allowing kids to move different parts of an equation back and forth across the equal sign."
+pagedescription = "This activity presents the commutative property of addition by allowing kids to move different parts of an equation back and forth across the equal sign."
 slug = "forward-backward-commutative-property-of-addition-dragging"
 url = "/1st-grade/forward-backward-commutative-property-of-addition-dragging"
 grade = "1st Grade"

@@ -1,6 +1,8 @@
 +++
-title = "Basic addition within 5 using brix (known sum)"
-description = "Basic addition within 5 using brix (known sum)"
+title = "Addition within 5 with a known sum | MathBRIX"
+pagetitle = "Basic addition within 5 using brix (known sum)"
+description = "In this game, children are introduced to simple addition, using different size brix to represent different numbers. Play online or get the app free!"
+pagedescription = "In this game, children are introduced to simple addition, using different size brix to represent different numbers."
 slug = "basic-addition-within-5-using-brix-known-sum"
 url = "/kindergarten/basic-addition-within-5-using-brix-known-sum"
 grade = "Kindergarten"

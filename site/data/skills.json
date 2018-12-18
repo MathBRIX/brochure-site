@@ -6,13 +6,13 @@
                 "name": "Count to 5 with objects (random arrangement)",
                 "slug": "count-to-5-with-objects-random-arrangement",
                 "url": "/kindergarten/count-to-5-with-objects-random-arrangement",
-                "image": "k-count-tap"
+                "image": "count-obj-rng-upto-5"
             },
             {
                 "name": "Count to 5 with objects (random arrangement, typing)",
                 "slug": "count-to-5-with-objects-random-arrangement-typing",
                 "url": "/kindergarten/count-to-5-with-objects-random-arrangement-typing",
-                "image": "k-typing"
+                "image": "count-obj-rng-upto-5-typing"
             }
         ]
     },
@@ -23,7 +23,7 @@
                 "name": "Recognize whole numbers up to 10",
                 "slug": "recognize-whole-numbers-up-to-10",
                 "url": "/kindergarten/recognize-whole-numbers-up-to-10",
-                "image": "k-numeral-iden"
+                "image": "rec-whole-num-upto-10"
             }
         ]
     },
@@ -40,7 +40,7 @@
                 "name": "Compare sets of objects up to 5",
                 "slug": "compare-sets-of-objects-up-to-5",
                 "url": "/kindergarten/compare-sets-of-objects-up-to-5",
-                "image": "k-compare-2-bundles"
+                "image": "comp-2-sets-upto-5"
             },
             {
                 "name": "Addition combinations up to 10 using brix",
@@ -52,7 +52,7 @@
                 "name": "Compare numerals and sets of objects, up to 10",
                 "slug": "compare-numerals-and-sets-of-objects-up-to-10",
                 "url": "/kindergarten/compare-numerals-and-sets-of-objects-up-to-10",
-                "image": "k-compare-2-numbers"
+                "image": "comp-set-vs-num-upto-10"
             },
             {
                 "name": "Stairsteps: Complete the pattern by adding or subtracting by 1's and 2's, within 10",
@@ -414,16 +414,16 @@
         "category": "Enrichment",
         "games": [
             {
-                "name": "Represent numbers up to 10 (dragging)",
-                "slug": "represent-numbers-up-to-10-dragging",
-                "url": "/kindergarten/represent-numbers-up-to-10-dragging",
-                "image": "mc-dr-1"
+                "name": "Minicomputer: Represent numbers up to 10 (typing)",
+                "slug": "minicomputer-represent-numbers-up-to-10-typing",
+                "url": "/kindergarten/minicomputer-represent-numbers-up-to-10-typing",
+                "image": "mc-ty-1"
             },
             {
-                "name": "Represent numbers up to 10 (typing)",
-                "slug": "represent-numbers-up-to-10-typing",
-                "url": "/kindergarten/represent-numbers-up-to-10-typing",
-                "image": "mc-ty-1"
+                "name": "Minicomputer: Represent numbers up to 10 (dragging)",
+                "slug": "minicomputer-represent-numbers-up-to-10-dragging",
+                "url": "/kindergarten/minicomputer-represent-numbers-up-to-10-dragging",
+                "image": "mc-dr-1"
             },
             {
                 "name": "Minicomputer: Addition up to 10",
@@ -444,16 +444,16 @@
                 "image": "mc-sub-1-sp"
             },
             {
-                "name": "MiniComputer: Represent numbers up to 100 (Dragging)",
-                "slug": "minicomputer-represent-numbers-up-to-100-dragging",
-                "url": "/1st-grade/minicomputer-represent-numbers-up-to-100-dragging",
-                "image": "mc-dr-10"
-            },
-            {
-                "name": "MiniComputer: Represent numbers up to 100 (Typing)",
+                "name": "Minicomputer: Represent numbers up to 100 (Typing)",
                 "slug": "minicomputer-represent-numbers-up-to-100-typing",
                 "url": "/1st-grade/minicomputer-represent-numbers-up-to-100-typing",
                 "image": "mc-ty-10"
+            },
+            {
+                "name": "Minicomputer: Represent numbers up to 100 (Dragging)",
+                "slug": "minicomputer-represent-numbers-up-to-100-dragging",
+                "url": "/1st-grade/minicomputer-represent-numbers-up-to-100-dragging",
+                "image": "mc-dr-10"
             },
             {
                 "name": "Minicomputer: Addition up to 100 (carrying)",
@@ -468,16 +468,16 @@
                 "image": "mc-add-10-ov"
             },
             {
-                "name": "Minicomputer: Subtraction within 100 (splitting tens)",
-                "slug": "minicomputer-subtraction-within-100-splitting-tens",
-                "url": "/1st-grade/minicomputer-subtraction-within-100-splitting-tens",
-                "image": "mc-sub-10-sp"
-            },
-            {
                 "name": "Minicomputer: Addition up to 100 (no overlaps)",
                 "slug": "minicomputer-addition-up-to-100-no-overlaps",
                 "url": "/1st-grade/minicomputer-addition-up-to-100-no-overlaps",
                 "image": "mc-add-10-nov"
+            },
+            {
+                "name": "Minicomputer: Subtraction within 100 (splitting tens)",
+                "slug": "minicomputer-subtraction-within-100-splitting-tens",
+                "url": "/1st-grade/minicomputer-subtraction-within-100-splitting-tens",
+                "image": "mc-sub-10-sp"
             }
         ]
     }

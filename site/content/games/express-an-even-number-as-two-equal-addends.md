@@ -1,6 +1,8 @@
 +++
-title = "Express an even number as two equal addends"
-description = "Express an even number as two equal addends"
+title = "Show equal parts of an even number | MathBRIX"
+pagetitle = "Express an even number as two equal addends"
+description = "In this activity, kids learn an even number can always be divided into two equal parts by splitting brix and weighing them on scales. Play free now!"
+pagedescription = "In this activity, kids learn an even number can always be divided into two equal parts by splitting brix and weighing them on scales."
 slug = "express-an-even-number-as-two-equal-addends"
 url = "/2nd-grade/express-an-even-number-as-two-equal-addends"
 grade = "2nd Grade"

@@ -11,7 +11,9 @@ const {
   SKILLS_ROOT,
   grades,
   gradeLabels,
+  clearDirectory,
   downloadGameData,
+  fetchGoogleSheetData,
   getGameURL,
   getGrade,
   slugify
@@ -25,13 +27,22 @@ const writeFile = util.promisify(fs.writeFile);
 // Main function for the whole script
 async function main() {
   const data = await downloadGameData();
+  const sheetData = await fetchGoogleSheetData();
 
+  await clearGameData();
   writeGamesListData(data);
   writeGamesSingleData(data);
-  createGamePages(data);
+  createGamePages(data, sheetData);
 
   const skillData = await writeSkillsData(data);
   createSkillPages(skillData);
+}
+
+
+// Remove all the game data files
+const clearGameData = async function() {
+  const gamesDir = `${REPO_ROOT}/site/data/${GAMES_ROOT}`;
+  return await clearDirectory(gamesDir);
 }
 
 
@@ -67,7 +78,7 @@ const writeGamesListData = async function(data) {
 }
 
 
-// Create the games data files for the single page
+// Create the games data files for the single pages
 const writeGamesSingleData = async function(data) {
   const { games } = data;
 
@@ -104,15 +115,12 @@ const writeSkillsData = async function(data) {
 
 
 // Create the individual game pages
-const createGamePages = async function(data) {
+const createGamePages = async function(data, sheetData) {
   const { games } = data;
   const gamesDir = `${REPO_ROOT}/site/content/${GAMES_ROOT}`;
 
   // Remove all the game pages
-  const files = await readdir(gamesDir);
-  await Promise.all(
-    files.map(f => unlink(path.join(gamesDir, f)))
-  );
+  await clearDirectory(gamesDir);
 
   // Make the games list page
   const indexData = [
@@ -138,10 +146,18 @@ const createGamePages = async function(data) {
     };
     const subgame = Object.keys(oldSubgames).includes(game.subgame) ?
       oldSubgames[game.subgame] : game.subgame;
+
+    const rowData = sheetData.find(row => row.pageTitle === game.title);
+    if (!rowData) {
+      throw new Error(`No Google sheet entry found for ${game.title}`);
+    }
+
     const data = [
       '+++',
-      `title = "${game.title}"`,
-      `description = "${game.title}"`,
+      `title = "${rowData.serpTitle}"`,
+      `pagetitle = "${game.title}"`,
+      `description = "${rowData.serpDescription}"`,
+      `pagedescription = "${rowData.pageDescription}"`,
       `slug = "${slugify(game.title)}"`,
       `url = "${getGameURL(game)}"`,
       `grade = "${getGrade(game)}"`,
@@ -160,10 +176,7 @@ const createSkillPages = async function(categoryData) {
   const skillsDir = `${REPO_ROOT}/site/content/${SKILLS_ROOT}`;
 
   // Remove all the skill pages
-  const files = await readdir(skillsDir);
-  await Promise.all(
-    files.map(f => unlink(path.join(skillsDir, f)))
-  );
+  await clearDirectory(skillsDir);
 
   // Make the skills list page
   const indexData = [
@@ -175,11 +188,11 @@ const createSkillPages = async function(categoryData) {
   ].join('\n');
   await writeFile(`${skillsDir}/_index.md`, indexData);
 
-  // Make the single game pages
+  // Make the single skill pages
   for (const { category } of categoryData) {
     const data = [
       '+++',
-      `title = "${category}"`,
+      `title = "${category} | MathBRIX"`,
       `url = "/${SKILLS_ROOT}/${slugify(category)}"`,
       '+++'
     ].join('\n');
