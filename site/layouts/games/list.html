@@ -24,7 +24,9 @@
 
     {{ range .categories }}
 
-      <h3 class="f4 f3-ns">{{ .name }}</h3>
+      <h3 class="f4 f3-ns">
+        <a class="mid-gray no-underline dim" href="/skills/{{ urlize .name }}">{{ .name }}</a>
+      </h3>
 
       <div class="flex flex-wrap">
         {{ range .games }}
