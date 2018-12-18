@@ -181,6 +181,7 @@ const createSkillPages = async function(categoryData) {
     const data = [
       '+++',
       `title = "${category} | MathBRIX"`,
+      `name = "${category}"`,
       `url = "/${SKILLS_ROOT}/${slugify(category)}"`,
       '+++'
     ].join('\n');
