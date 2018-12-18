@@ -8,5 +8,5 @@ url = "/kindergarten/minicomputer-represent-numbers-up-to-10-typing"
 grade = "Kindergarten"
 category = "Enrichment"
 gametype = "MINI_COMPUTER"
-subgametype = "CLASSIC_TY_1"
+subgametype = "MC_TY_1"
 +++

@@ -134,20 +134,8 @@ const createGamePages = async function(data, sheetData) {
 
   // Make the single game pages
   for (const game of games) {
-    // TODO: remove this conversion when
-    // the classic game names are removed from prod
-    const oldSubgames = {
-      'CREATE_COMBO_WITHIN_10': 'CLASSIC',
-      'COLORS_VS_BRIX': 'CLASSIC',
-      'MC_TY_1': 'CLASSIC_TY_1',
-      'MC_DR_1': 'CLASSIC_DR_1',
-      'MC_TY_10': 'CLASSIC_TY_10',
-      'MC_DR_10': 'CLASSIC_DR_10'
-    };
-    const subgame = Object.keys(oldSubgames).includes(game.subgame) ?
-      oldSubgames[game.subgame] : game.subgame;
-
     const rowData = sheetData.find(row => row.pageTitle === game.title);
+
     if (!rowData) {
       throw new Error(`No Google sheet entry found for ${game.title}`);
     }
@@ -163,7 +151,7 @@ const createGamePages = async function(data, sheetData) {
       `grade = "${getGrade(game)}"`,
       `category = "${game.category}"`,
       `gametype = "${game.game}"`,
-      `subgametype = "${subgame}"`,
+      `subgametype = "${game.subgame}"`,
       '+++'
     ].join('\n');
     const path = `${gamesDir}/${slugify(game.title)}.md`;
