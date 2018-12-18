@@ -1,6 +1,7 @@
 +++
 title = "Add within 20 (decomposing numbers leading to a ten)"
 description = "Add within 20 (decomposing numbers leading to a ten)"
+slug = "add-within-20-decomposing-numbers-leading-to-a-ten"
 url = "/1st-grade/add-within-20-decomposing-numbers-leading-to-a-ten"
 grade = "1st Grade"
 category = "Operations"

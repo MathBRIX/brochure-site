@@ -18,7 +18,7 @@
 
   <h1 class="mt0 f3 f2-ns normal ttu tracked black">Math Games</h1>
 
-  {{ range $.Site.Data.games }}
+  {{ range $.Site.Data.games._index }}
 
     <h2 id="{{ urlize .grade }}" class="f3 f2-ns normal red">{{ .grade }} Games</h2>
 

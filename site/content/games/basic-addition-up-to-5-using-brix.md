@@ -1,6 +1,7 @@
 +++
 title = "Basic addition up to 5 using brix"
 description = "Basic addition up to 5 using brix"
+slug = "basic-addition-up-to-5-using-brix"
 url = "/kindergarten/basic-addition-up-to-5-using-brix"
 grade = "Kindergarten"
 category = "Operations"

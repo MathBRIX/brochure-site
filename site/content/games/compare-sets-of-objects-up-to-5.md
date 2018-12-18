@@ -1,6 +1,7 @@
 +++
 title = "Compare sets of objects up to 5"
 description = "Compare sets of objects up to 5"
+slug = "compare-sets-of-objects-up-to-5"
 url = "/kindergarten/compare-sets-of-objects-up-to-5"
 grade = "Kindergarten"
 category = "Number Sense"

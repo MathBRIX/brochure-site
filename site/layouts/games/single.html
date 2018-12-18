@@ -46,6 +46,25 @@
     </p>
   </div>
 
+  <div class="mt5">
+    <h2>Standards Addressed</h2>
+    {{ $pageData := index .Site.Data.games .Params.slug }}
+    <table class="collapse ba br2 b--black-10 pv2 ph3">
+      <tbody>
+        <tr class="striped--light-gray">
+          <th class="pv2 ph3 tl f5 ttu">Standards Body</th>
+          <th class="pv2 ph3 tl f5 ttu">Codes</th>
+        </tr>
+        {{ range $pageData.standards }}
+          <tr class="striped--light-gray">
+            <td class="pv2 ph3 f5">{{ .body }}</td>
+            <td class="pv2 ph3 f5">{{ delimit .codes ", " }}</td>
+          </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+
 </div>
 
 {{ end }}

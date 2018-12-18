@@ -1,6 +1,7 @@
 +++
 title = "Compare a number to a number sentence (addition only)"
 description = "Compare a number to a number sentence (addition only)"
+slug = "compare-a-number-to-a-number-sentence-addition-only"
 url = "/1st-grade/compare-a-number-to-a-number-sentence-addition-only"
 grade = "1st Grade"
 category = "Equivalence"

@@ -1,6 +1,7 @@
 +++
 title = "Minicomputer: Subtraction within 100 (splitting tens)"
 description = "Minicomputer: Subtraction within 100 (splitting tens)"
+slug = "minicomputer-subtraction-within-100-splitting-tens"
 url = "/1st-grade/minicomputer-subtraction-within-100-splitting-tens"
 grade = "1st Grade"
 category = "Enrichment"

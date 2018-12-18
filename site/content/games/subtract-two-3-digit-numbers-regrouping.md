@@ -1,6 +1,7 @@
 +++
 title = "Subtract two 3-digit numbers (regrouping)"
 description = "Subtract two 3-digit numbers (regrouping)"
+slug = "subtract-two-3-digit-numbers-regrouping"
 url = "/2nd-grade/subtract-two-3-digit-numbers-regrouping"
 grade = "2nd Grade"
 category = "Place Value"

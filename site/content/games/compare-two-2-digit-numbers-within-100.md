@@ -1,6 +1,7 @@
 +++
 title = "Compare two 2-digit numbers within 100"
 description = "Compare two 2-digit numbers within 100"
+slug = "compare-two-2-digit-numbers-within-100"
 url = "/1st-grade/compare-two-2-digit-numbers-within-100"
 grade = "1st Grade"
 category = "Greater Than, Less Than"

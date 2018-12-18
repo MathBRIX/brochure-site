@@ -26,7 +26,8 @@ const writeFile = util.promisify(fs.writeFile);
 async function main() {
   const data = await downloadGameData();
 
-  writeGamesData(data);
+  writeGamesListData(data);
+  writeGamesSingleData(data);
   createGamePages(data);
 
   const skillData = await writeSkillsData(data);
@@ -35,7 +36,7 @@ async function main() {
 
 
 // Create the games data file for the list page
-const writeGamesData = async function(data) {
+const writeGamesListData = async function(data) {
   const { categories, games } = data;
 
   const result = grades.map(function(grade) {
@@ -60,7 +61,23 @@ const writeGamesData = async function(data) {
   });
 
   const fileData = JSON.stringify(result, null, 4);
-  return await writeFile(`${REPO_ROOT}/site/data/${GAMES_ROOT}.json`, fileData);
+  return await writeFile(
+    `${REPO_ROOT}/site/data/${GAMES_ROOT}/_index.json`, fileData
+  );
+}
+
+
+// Create the games data files for the single page
+const writeGamesSingleData = async function(data) {
+  const { games } = data;
+
+  for (const game of games) {
+    const fileData = JSON.stringify({'standards': game.standards}, null, 4);
+    await writeFile(
+      `${REPO_ROOT}/site/data/${GAMES_ROOT}/${slugify(game.title)}.json`,
+      fileData
+    );
+  }
 }
 
 
@@ -125,6 +142,7 @@ const createGamePages = async function(data) {
       '+++',
       `title = "${game.title}"`,
       `description = "${game.title}"`,
+      `slug = "${slugify(game.title)}"`,
       `url = "${getGameURL(game)}"`,
       `grade = "${getGrade(game)}"`,
       `category = "${game.category}"`,
