@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+<div class="pv4 ph3 ph5-ns ph6-l">
+
+  <div id="splashreel-container" class="w-100 w-80-l center">
+    <div id="splashreel" data-plyr-provider="youtube" data-plyr-embed-id="dGCpBh3Xz_g"></div>
+  </div>
+
+  <div class="mt2 mt4-l mb1 mb4-l">
+
+    <h2 class="mb2 mb3-l f3 f2-ns normal">Why Do Educators Love MathBRIX?</h2>
+
+    {{ range $.Site.Data.learnmore.features }}
+      <div class="fl w-100 w-50-l ph0 ph2-l mid-gray">
+        <div class="flex items-center">
+          <img src="{{ .icon }}" class="w3 h3">
+          <div class="ml2">
+            <h3 class="mb0">{{ .title }}</h3>
+            <p class="mt2">{{ .description }}</p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+
+    <div class="cb"></div>
+
+  </div>
+
+  <div class="mv4">
+
+    <h2 class="f4 f3-ns normal">Games by grade level</h2>
+
+    {{ range $.Site.Data.learnmore.gradegames }}
+      <div class="fl w-100 w-33-l pr3 pb3 mid-gray">
+        <div class="pa3 ba br3 b--mb-{{ .color }}">
+          <h3 class="mt0 mb-{{ .color }}">{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <a class="mb-blue no-underline dim" href="/games/#{{ .anchorlink }}">See all games &rarr;</a>
+        </div>
+      </div>
+    {{ end }}
+
+    <div class="cb"></div>
+
+  </div>
+
+  <div class="mv4">
+
+    <h2 class="f4 f3-ns normal">Games by category</h2>
+
+    {{ range $.Site.Data.learnmore.categorygames }}
+      <div class="fl w-100 w-33-l pr3 pb3 mid-gray">
+        <div class="pa3 ba br3 b--mb-{{ .color }}">
+          <h3 class="mt0 mb-{{ .color }}">{{ .title }}</h3>
+          <p>{{ .description }}</p>
+          <a class="mb-blue no-underline dim" href="/skills/{{ urlize .title }}">See all games &rarr;</a>
+        </div>
+      </div>
+    {{ end }}
+
+    <div class="cb"></div>
+
+  </div>
+
+</div>
+
+{{ end }}

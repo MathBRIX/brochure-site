@@ -1,0 +1,103 @@
+[[features]]
+title = "Early Education"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/early-learning-icon.png"
+
+[[features]]
+title = "Game-Based"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/game-based-icon.png"
+
+[[features]]
+title = "Conceptual Approach"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/conceptual-icon.png"
+
+[[features]]
+title = "Adaptive"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/adaptive-learning-icon.png"
+
+[[features]]
+title = "Play Anywhere"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/cloud-icon.png"
+
+[[features]]
+title = "Tracking"
+description = "Lorem ipsum dolor amet shoreditch franzen heirloom retro wayfarers mustache thundercats yuccie."
+icon = "/analytics-icon.png"
+
+
+
+
+[[gradegames]]
+title = "Kindergarten"
+description = "Lorem ipsum dolor amet pabst quinoa godard keytar. Umami hot chicken unicorn poutine photo booth cronut retro neutra. Put a bird on it craft beer bicycle rights bitters brunch."
+color = "red"
+anchorlink = "kindergarten"
+
+[[gradegames]]
+title = "First Grade"
+description = "Lorem ipsum dolor amet pabst quinoa godard keytar. Umami hot chicken unicorn poutine photo booth cronut retro neutra. Put a bird on it craft beer bicycle rights bitters brunch."
+color = "orange"
+anchorlink = "1st-grade"
+
+[[gradegames]]
+title = "Second Grade"
+description = "Lorem ipsum dolor amet pabst quinoa godard keytar. Umami hot chicken unicorn poutine photo booth cronut retro neutra. Put a bird on it craft beer bicycle rights bitters brunch."
+color = "california"
+anchorlink = "2nd-grade"
+
+
+
+
+[[categorygames]]
+title = "Counting"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "red"
+
+[[categorygames]]
+title = "Number Recognition"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "orange"
+
+[[categorygames]]
+title = "Number Sense"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "california"
+
+[[categorygames]]
+title = "Greater Than, Less Than"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "yellow"
+
+[[categorygames]]
+title = "Classification"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "atlantis"
+
+[[categorygames]]
+title = "Operations"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "green"
+
+[[categorygames]]
+title = "Equivalence"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "mountain-meadow"
+
+[[categorygames]]
+title = "Place Value"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "light-blue"
+
+[[categorygames]]
+title = "Odd or Even"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "pelorous"
+
+[[categorygames]]
+title = "Enrichment"
+description = "Lorem ipsum dolor amet meditation raw denim polaroid freegan XOXO helvetica shaman meggings synth artisan tofu yr man bun. Green juice vegan fingerstache viral tilde activated charcoal roof party schlitz skateboard forage."
+color = "violet"
