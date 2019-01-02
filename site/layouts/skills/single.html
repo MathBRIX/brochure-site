@@ -4,6 +4,8 @@
 
 {{ define "main" }}
 
+{{ partial "what-is-mathbrix" }}
+
 <div class="pv4 ph3 ph5-ns ph6-l mid-gray">
 
   {{ $categoryData := index (where $.Site.Data.skills "category" .Params.name) 0 }}
