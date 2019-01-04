@@ -13,7 +13,6 @@ const {
   gradeLabels,
   clearDirectory,
   downloadGameData,
-  fetchGoogleSheetData,
   getGameURL,
   getGrade,
   slugify
@@ -27,12 +26,10 @@ const writeFile = util.promisify(fs.writeFile);
 // Main function for the whole script
 async function main() {
   const data = await downloadGameData();
-  const sheetData = await fetchGoogleSheetData();
-
   await clearGameData();
   writeGamesListData(data);
   writeGamesSingleData(data);
-  createGamePages(data, sheetData);
+  createGamePages(data);
 
   const skillData = await writeSkillsData(data);
   createSkillPages(skillData);
@@ -85,7 +82,7 @@ const writeGamesSingleData = async function(data) {
   for (const game of games) {
     const fileData = JSON.stringify({'standards': game.standards}, null, 4);
     await writeFile(
-      `${REPO_ROOT}/site/data/${GAMES_ROOT}/${slugify(game.title)}.json`,
+      `${REPO_ROOT}/site/data/${GAMES_ROOT}/${slugify(game.page_title)}.json`,
       fileData
     );
   }
@@ -115,7 +112,7 @@ const writeSkillsData = async function(data) {
 
 
 // Create the individual game pages
-const createGamePages = async function(data, sheetData) {
+const createGamePages = async function(data) {
   const { games } = data;
   const gamesDir = `${REPO_ROOT}/site/content/${GAMES_ROOT}`;
 
@@ -134,19 +131,14 @@ const createGamePages = async function(data, sheetData) {
 
   // Make the single game pages
   for (const game of games) {
-    const rowData = sheetData.find(row => row.pageTitle === game.title);
-
-    if (!rowData) {
-      throw new Error(`No Google sheet entry found for ${game.title}`);
-    }
-
     const data = [
       '+++',
-      `title = "${rowData.serpTitle}"`,
-      `pagetitle = "${game.title}"`,
-      `description = "${rowData.serpDescription}"`,
-      `pagedescription = "${rowData.pageDescription}"`,
-      `slug = "${slugify(game.title)}"`,
+      `airtableid = "${game.airtable_id}"`,
+      `title = "${game.serp_title}"`,
+      `pagetitle = "${game.page_title}"`,
+      `description = "${game.serp_description}"`,
+      `pagedescription = "${game.page_description}"`,
+      `slug = "${slugify(game.page_title)}"`,
       `url = "${getGameURL(game)}"`,
       `grade = "${getGrade(game)}"`,
       `category = "${game.category}"`,
@@ -154,7 +146,7 @@ const createGamePages = async function(data, sheetData) {
       `subgametype = "${game.subgame}"`,
       '+++'
     ].join('\n');
-    const path = `${gamesDir}/${slugify(game.title)}.md`;
+    const path = `${gamesDir}/${slugify(game.page_title)}.md`;
     await writeFile(path, data);
   }
 }
@@ -193,8 +185,8 @@ const createSkillPages = async function(categoryData) {
 
 const _gameData = function(game) {
   return {
-    name: game.title,
-    slug: slugify(game.title),
+    name: game.page_title,
+    slug: slugify(game.page_title),
     url: getGameURL(game),
     image: slugify(game.subgame)
   };

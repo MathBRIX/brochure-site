@@ -1,4 +1,5 @@
 +++
+airtableid = "reca02dVBlyLt6EtM"
 title = "Addition combos up to 10 using brix | MathBRIX"
 pagetitle = "Addition combinations up to 10 using brix"
 description = "In this pre-addition exercise, kids develop an intuitive sense of how larger numbers can be added together to create larger numbers. Play free online now!"

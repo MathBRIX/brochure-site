@@ -1,4 +1,5 @@
 +++
+airtableid = "rec3atNMNlHHqEurV"
 title = "Learn to add with carrying - brain teaser | MathBRIX"
 pagetitle = "Minicomputer: Addition up to 10"
 description = "In this intriguing game, the third in the minicomputer series, kids investigate how to add within 10, using different colored gems to represent different numbers."

@@ -1,4 +1,5 @@
 +++
+airtableid = "recdkanLuB3kuf5SH"
 title = "Add within 20 by making 10 | MathBRIX"
 pagetitle = "Add within 20 (decomposing numbers leading to a ten)"
 description = "In this multi-step exercise, children learn to easily add and subtract within 20 by first making a 10. Play online or get the app free!"

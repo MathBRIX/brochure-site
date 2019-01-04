@@ -3,8 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const s3 = require('s3');
 const { promisify } = require('util');
-const credentials = require('../service-account.json');
-const GoogleSpreadsheet = require('google-spreadsheet');
 
 const readdir = promisify(fs.readdir);
 const unlink = promisify(fs.unlink);
@@ -54,29 +52,9 @@ const downloadGameData = function() {
   });
 }
 
-const fetchGoogleSheetData = async function() {
-  const spreadsheetId = '1F3IVapbgEfLYPSQI0Y5d0ncDlE0lUj2NmfHlwreKdHs';
-  const sheet = new GoogleSpreadsheet(spreadsheetId);
-  await promisify(sheet.useServiceAccountAuth)(credentials);
-  // This is the tab number of the sheet we want, indexed starting at 1.
-  // Ensure that this sheet does not get reordered in Google Sheets.
-  const worksheetId = 1;
-  const rows = await promisify(sheet.getRows)(worksheetId);
-  return rows
-    .filter(row => row.number !== '')
-    .map(function(row) {
-      return {
-        pageTitle: row.longtitleforweb,
-        serpTitle: row.fullserptitle,
-        pageDescription: row['on-pagedescription'],
-        serpDescription: row.metadescriptionforserp
-      };
-    });
-}
-
 const getGameURL = function(game) {
   const gradeSlug = slugify(getGrade(game));
-  const gameSlug = slugify(game.title);
+  const gameSlug = slugify(game.page_title);
   return `/${gradeSlug}/${gameSlug}`;
 }
 
@@ -110,7 +88,6 @@ Object.assign(exports, {
   gradeLabels,
   clearDirectory,
   downloadGameData,
-  fetchGoogleSheetData,
   getGameURL,
   getGrade,
   slugify

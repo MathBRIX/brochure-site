@@ -1,8 +1,9 @@
 +++
+airtableid = "rec8uxT9kDfyi4Ued"
 title = "Learn to subtract with carrying - brain teaser | MathBRIX"
 pagetitle = "Minicomputer: Subtraction within 10 (splitting)"
-description = "Output Play online or get the app free!"
-pagedescription = "Output"
+description = "In this fascinating challenge, the fifth in the minicomputer series, students discover how to subtract within 10, with the added element of gem-splitting."
+pagedescription = "In this fascinating challenge, the fifth in the minicomputer series, students discover how to subtract within 10, with the added element of gem-splitting."
 slug = "minicomputer-subtraction-within-10-splitting"
 url = "/1st-grade/minicomputer-subtraction-within-10-splitting"
 grade = "1st Grade"

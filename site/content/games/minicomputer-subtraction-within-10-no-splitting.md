@@ -1,4 +1,5 @@
 +++
+airtableid = "recNPwhgUw4hv5nIQ"
 title = "Subtraction within 10 - brain teaser | MathBRIX"
 pagetitle = "Minicomputer: Subtraction within 10 (no splitting)"
 description = "In this brain-boosting exercise, the fourth in the minicomputer series, children learn to subtract within 10, using negative gems. Play free online now!"
