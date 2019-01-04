@@ -7,7 +7,7 @@ pagedescription = "This activity teaches kids to add within 10, using brix to re
 slug = "basic-addition-up-to-10-using-brix"
 url = "/kindergarten/basic-addition-up-to-10-using-brix"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "ADD_WITHIN_10"
 +++

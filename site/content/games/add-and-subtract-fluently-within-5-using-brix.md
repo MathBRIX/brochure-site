@@ -7,7 +7,7 @@ pagedescription = "This activity is designed to help children develop fluency wi
 slug = "add-and-subtract-fluently-within-5-using-brix"
 url = "/kindergarten/add-and-subtract-fluently-within-5-using-brix"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FLUENCY_IN_5"
 +++

@@ -7,7 +7,7 @@ pagedescription = "This game teaches students to rapidly spot numbers can be add
 slug = "make-5-by-adding-brix-friends-of-five"
 url = "/kindergarten/make-5-by-adding-brix-friends-of-five"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FILL_BLANK_WITH_GIVEN_WITHIN_5"
 +++

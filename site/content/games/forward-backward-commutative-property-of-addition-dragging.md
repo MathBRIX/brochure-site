@@ -7,7 +7,7 @@ pagedescription = "This activity presents the commutative property of addition b
 slug = "forward-backward-commutative-property-of-addition-dragging"
 url = "/1st-grade/forward-backward-commutative-property-of-addition-dragging"
 grade = "1st Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "COMMUTATIVE_IN_20_2_NUMBERS"
 +++

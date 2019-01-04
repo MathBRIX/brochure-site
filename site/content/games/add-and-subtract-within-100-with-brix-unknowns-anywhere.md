@@ -7,7 +7,7 @@ pagedescription = "In this exercise, kids practice adding and subtracting within
 slug = "add-and-subtract-within-100-with-brix-unknowns-anywhere"
 url = "/2nd-grade/add-and-subtract-within-100-with-brix-unknowns-anywhere"
 grade = "2nd Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "ADD_SUB_WITHIN_100_UNKNOWNS_ANYWHERE"
 +++

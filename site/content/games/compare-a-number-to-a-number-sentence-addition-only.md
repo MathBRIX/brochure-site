@@ -7,7 +7,7 @@ pagedescription = "In this simple game, students determine if an addition senten
 slug = "compare-a-number-to-a-number-sentence-addition-only"
 url = "/1st-grade/compare-a-number-to-a-number-sentence-addition-only"
 grade = "1st Grade"
-category = "Equivalence"
+category = "Comparison"
 gametype = "BRIX_MASTER"
 subgametype = "TRUE_FALSE_1SIDE_ADD"
 +++

@@ -7,7 +7,7 @@ pagedescription = "This exercise helps children quickly recognize numbers that a
 slug = "make-10-by-adding-brix-friends-of-ten"
 url = "/kindergarten/make-10-by-adding-brix-friends-of-ten"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FILL_BLANK_WITH_GIVEN_WITHIN_10"
 +++

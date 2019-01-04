@@ -7,7 +7,7 @@ pagedescription = "This module introduces kids to basic subtraction within 5, us
 slug = "basic-subtraction-within-5-using-brix-scales"
 url = "/kindergarten/basic-subtraction-within-5-using-brix-scales"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "SUB_WITHIN_5"
 +++

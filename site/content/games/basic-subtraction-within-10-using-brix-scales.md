@@ -7,7 +7,7 @@ pagedescription = "In this activity, children practice subtracting numbers withi
 slug = "basic-subtraction-within-10-using-brix-scales"
 url = "/kindergarten/basic-subtraction-within-10-using-brix-scales"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "SUB_WITHIN_10"
 +++

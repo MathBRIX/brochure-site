@@ -7,7 +7,7 @@ pagedescription = "In this educational module, students cement the relationship 
 slug = "compare-numerals-and-sets-of-objects-up-to-10"
 url = "/kindergarten/compare-numerals-and-sets-of-objects-up-to-10"
 grade = "Kindergarten"
-category = "Number Sense"
+category = "Comparison"
 gametype = "COMPARISON"
 subgametype = "COMP_SET_VS_NUM_UPTO_10"
 +++

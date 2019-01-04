@@ -7,7 +7,7 @@ pagedescription = "In this game, children are introduced to simple addition, usi
 slug = "basic-addition-within-5-using-brix-known-sum"
 url = "/kindergarten/basic-addition-within-5-using-brix-known-sum"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "ADD_WITHIN_5_PRE"
 +++

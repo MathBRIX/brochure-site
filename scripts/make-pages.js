@@ -53,14 +53,14 @@ const writeGamesListData = async function(data) {
     const gradeCategories = categories
       .map(function(category) {
         return {
-          name: category,
+          name: category.name,
           games: gradeGames
-            .filter(game => game.category === category)
+            .filter(game => game.category === category.name)
             .sort((a, b) => a.levelIndex - b.levelIndex)
             .map(game => _gameData(game))
         };
       })
-      .filter(category => category.games.length > 0);
+      .filter(attrs => attrs.games.length > 0);
 
     return {
       grade: gradeLabels[grade],
@@ -97,12 +97,12 @@ const writeSkillsData = async function(data) {
       return {
         category,
         games: games
-          .filter(game => game.category === category)
+          .filter(game => game.category === category.name)
           .sort((a, b) => a.levelIndex - b.levelIndex)
           .map(game => _gameData(game))
       };
     })
-    .filter(category => category.games.length > 0);
+    .filter(attrs => attrs.games.length > 0);
 
   const fileData = JSON.stringify(result, null, 4);
   await writeFile(`${REPO_ROOT}/site/data/${SKILLS_ROOT}.json`, fileData);
@@ -172,12 +172,13 @@ const createSkillPages = async function(categoryData) {
   for (const { category } of categoryData) {
     const data = [
       '+++',
-      `title = "${category} | MathBRIX"`,
-      `name = "${category}"`,
-      `url = "/${SKILLS_ROOT}/${slugify(category)}"`,
+      `title = "${category.title} | MathBRIX"`,
+      `pagetitle = "${category.title}"`,
+      `description = "${category.description}"`,
+      `url = "/${SKILLS_ROOT}/${slugify(category.name)}"`,
       '+++'
     ].join('\n');
-    const path = `${skillsDir}/${slugify(category)}.md`;
+    const path = `${skillsDir}/${slugify(category.name)}.md`;
     await writeFile(path, data);
   }
 }

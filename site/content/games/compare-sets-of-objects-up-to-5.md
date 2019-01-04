@@ -7,7 +7,7 @@ pagedescription = "In this simple game, children reinforce their understanding o
 slug = "compare-sets-of-objects-up-to-5"
 url = "/kindergarten/compare-sets-of-objects-up-to-5"
 grade = "Kindergarten"
-category = "Number Sense"
+category = "Comparison"
 gametype = "COMPARISON"
 subgametype = "COMP_2_SETS_UPTO_5"
 +++

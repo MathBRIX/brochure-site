@@ -7,7 +7,7 @@ pagedescription = "In this timed module, children practice adding and subtractin
 slug = "add-and-subtract-fluently-within-100-using-brix"
 url = "/2nd-grade/add-and-subtract-fluently-within-100-using-brix"
 grade = "2nd Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FLUENCY_IN_100"
 +++

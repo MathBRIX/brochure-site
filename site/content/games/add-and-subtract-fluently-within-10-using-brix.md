@@ -7,7 +7,7 @@ pagedescription = "This timed exercise evaluates a student ability to add and su
 slug = "add-and-subtract-fluently-within-10-using-brix"
 url = "/1st-grade/add-and-subtract-fluently-within-10-using-brix"
 grade = "1st Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FLUENCY_IN_10"
 +++

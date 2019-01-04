@@ -7,7 +7,7 @@ pagedescription = "In this activity, kids learn an even number can always be div
 slug = "express-an-even-number-as-two-equal-addends"
 url = "/2nd-grade/express-an-even-number-as-two-equal-addends"
 grade = "2nd Grade"
-category = "Odd or Even"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "EVEN_NUM_SPLIT"
 +++

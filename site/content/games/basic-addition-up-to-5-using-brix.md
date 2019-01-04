@@ -7,7 +7,7 @@ pagedescription = "This module helps students further develop an understanding o
 slug = "basic-addition-up-to-5-using-brix"
 url = "/kindergarten/basic-addition-up-to-5-using-brix"
 grade = "Kindergarten"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "ADD_WITHIN_5"
 +++

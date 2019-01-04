@@ -7,7 +7,7 @@ pagedescription = "In this module, children practice basic operations within 10 
 slug = "add-and-subtract-within-10-with-brix-unknowns-anywhere"
 url = "/1st-grade/add-and-subtract-within-10-with-brix-unknowns-anywhere"
 grade = "1st Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "ADD_SUB_WITHIN_10_UNKNOWNS_ANYWHERE"
 +++

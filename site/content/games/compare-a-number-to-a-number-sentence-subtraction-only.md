@@ -7,7 +7,7 @@ pagedescription = "In this quick module, kids visually compare sets of brix to d
 slug = "compare-a-number-to-a-number-sentence-subtraction-only"
 url = "/1st-grade/compare-a-number-to-a-number-sentence-subtraction-only"
 grade = "1st Grade"
-category = "Equivalence"
+category = "Comparison"
 gametype = "BRIX_MASTER"
 subgametype = "TRUE_FALSE_1SIDE_SUB"
 +++

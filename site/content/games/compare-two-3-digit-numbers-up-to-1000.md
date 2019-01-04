@@ -7,7 +7,7 @@ pagedescription = "In this quick module, kids explore greater than, less than re
 slug = "compare-two-3-digit-numbers-up-to-1000"
 url = "/2nd-grade/compare-two-3-digit-numbers-up-to-1000"
 grade = "2nd Grade"
-category = "Greater Than, Less Than"
+category = "Comparison"
 gametype = "BRIX_MASTER"
 subgametype = "COMPARE_THREE_DIGIT_NUMBERS"
 +++

@@ -7,7 +7,7 @@ pagedescription = "In this game, kids practice operations within 10 and learn to
 slug = "add-and-subtract-within-20-using-brix-typing"
 url = "/1st-grade/add-and-subtract-within-20-using-brix-typing"
 grade = "1st Grade"
-category = "Operations"
+category = "Operations and Algebraic Thinking"
 gametype = "BRIX_MASTER"
 subgametype = "FILL_BLANK"
 +++

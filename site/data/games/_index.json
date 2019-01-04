@@ -3,23 +3,6 @@
         "grade": "Kindergarten",
         "categories": [
             {
-                "name": "Classification",
-                "games": [
-                    {
-                        "name": "Sorting by color and value with Venn Diagrams",
-                        "slug": "sorting-by-color-and-value-with-venn-diagrams",
-                        "url": "/kindergarten/sorting-by-color-and-value-with-venn-diagrams",
-                        "image": "colors-vs-brix"
-                    },
-                    {
-                        "name": "Sorting numerals and blocks with Venn diagrams",
-                        "slug": "sorting-numerals-and-blocks-with-venn-diagrams",
-                        "url": "/kindergarten/sorting-numerals-and-blocks-with-venn-diagrams",
-                        "image": "num-vs-brix"
-                    }
-                ]
-            },
-            {
                 "name": "Counting",
                 "games": [
                     {
@@ -57,16 +40,21 @@
                         "image": "k-match-brix-to-num"
                     },
                     {
-                        "name": "Compare sets of objects up to 5",
-                        "slug": "compare-sets-of-objects-up-to-5",
-                        "url": "/kindergarten/compare-sets-of-objects-up-to-5",
-                        "image": "comp-2-sets-upto-5"
-                    },
-                    {
                         "name": "Addition combinations up to 10 using brix",
                         "slug": "addition-combinations-up-to-10-using-brix",
                         "url": "/kindergarten/addition-combinations-up-to-10-using-brix",
                         "image": "create-combo-within-10"
+                    }
+                ]
+            },
+            {
+                "name": "Comparison",
+                "games": [
+                    {
+                        "name": "Compare sets of objects up to 5",
+                        "slug": "compare-sets-of-objects-up-to-5",
+                        "url": "/kindergarten/compare-sets-of-objects-up-to-5",
+                        "image": "comp-2-sets-upto-5"
                     },
                     {
                         "name": "Compare numerals and sets of objects, up to 10",
@@ -77,7 +65,24 @@
                 ]
             },
             {
-                "name": "Operations",
+                "name": "Classification",
+                "games": [
+                    {
+                        "name": "Sorting by color and value with Venn Diagrams",
+                        "slug": "sorting-by-color-and-value-with-venn-diagrams",
+                        "url": "/kindergarten/sorting-by-color-and-value-with-venn-diagrams",
+                        "image": "colors-vs-brix"
+                    },
+                    {
+                        "name": "Sorting numerals and blocks with Venn diagrams",
+                        "slug": "sorting-numerals-and-blocks-with-venn-diagrams",
+                        "url": "/kindergarten/sorting-numerals-and-blocks-with-venn-diagrams",
+                        "image": "num-vs-brix"
+                    }
+                ]
+            },
+            {
+                "name": "Operations and Algebraic Thinking",
                 "games": [
                     {
                         "name": "Basic addition within 5 using brix (known sum)",
@@ -163,7 +168,24 @@
         "grade": "1st Grade",
         "categories": [
             {
-                "name": "Equivalence",
+                "name": "Number Sense",
+                "games": [
+                    {
+                        "name": "Stairsteps: Complete the pattern by adding or subtracting by 1's and 2's, within 10",
+                        "slug": "stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-10",
+                        "url": "/1st-grade/stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-10",
+                        "image": "add-sub-by-2-to-10"
+                    },
+                    {
+                        "name": "Stairsteps: Complete the pattern by adding or subtracting by 1's and 2's, within 20",
+                        "slug": "stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-20",
+                        "url": "/1st-grade/stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-20",
+                        "image": "add-sub-by-2-to-20"
+                    }
+                ]
+            },
+            {
+                "name": "Comparison",
                 "games": [
                     {
                         "name": "Compare a number to a number sentence (addition only)",
@@ -184,6 +206,12 @@
                         "image": "true-false-2side-add"
                     },
                     {
+                        "name": "Compare two 2-digit numbers within 100",
+                        "slug": "compare-two-2-digit-numbers-within-100",
+                        "url": "/1st-grade/compare-two-2-digit-numbers-within-100",
+                        "image": "compare-two-digit-numbers"
+                    },
+                    {
                         "name": "Compare two number sentences (addition and subtraction)",
                         "slug": "compare-two-number-sentences-addition-and-subtraction",
                         "url": "/1st-grade/compare-two-number-sentences-addition-and-subtraction",
@@ -192,35 +220,7 @@
                 ]
             },
             {
-                "name": "Greater Than, Less Than",
-                "games": [
-                    {
-                        "name": "Compare two 2-digit numbers within 100",
-                        "slug": "compare-two-2-digit-numbers-within-100",
-                        "url": "/1st-grade/compare-two-2-digit-numbers-within-100",
-                        "image": "compare-two-digit-numbers"
-                    }
-                ]
-            },
-            {
-                "name": "Number Sense",
-                "games": [
-                    {
-                        "name": "Stairsteps: Complete the pattern by adding or subtracting by 1's and 2's, within 10",
-                        "slug": "stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-10",
-                        "url": "/1st-grade/stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-10",
-                        "image": "add-sub-by-2-to-10"
-                    },
-                    {
-                        "name": "Stairsteps: Complete the pattern by adding or subtracting by 1's and 2's, within 20",
-                        "slug": "stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-20",
-                        "url": "/1st-grade/stairsteps-complete-the-pattern-by-adding-or-subtracting-by-1s-and-2s-within-20",
-                        "image": "add-sub-by-2-to-20"
-                    }
-                ]
-            },
-            {
-                "name": "Operations",
+                "name": "Operations and Algebraic Thinking",
                 "games": [
                     {
                         "name": "Forward, Backward: Subtraction as an unknown addend problem within 10",
@@ -396,7 +396,7 @@
         "grade": "2nd Grade",
         "categories": [
             {
-                "name": "Greater Than, Less Than",
+                "name": "Comparison",
                 "games": [
                     {
                         "name": "Compare two 3-digit numbers up to 1000",
@@ -407,24 +407,7 @@
                 ]
             },
             {
-                "name": "Odd or Even",
-                "games": [
-                    {
-                        "name": "Determine if a number within 20 is odd or even",
-                        "slug": "determine-if-a-number-within-20-is-odd-or-even",
-                        "url": "/2nd-grade/determine-if-a-number-within-20-is-odd-or-even",
-                        "image": "odd-or-even-20"
-                    },
-                    {
-                        "name": "Express an even number as two equal addends",
-                        "slug": "express-an-even-number-as-two-equal-addends",
-                        "url": "/2nd-grade/express-an-even-number-as-two-equal-addends",
-                        "image": "even-num-split"
-                    }
-                ]
-            },
-            {
-                "name": "Operations",
+                "name": "Operations and Algebraic Thinking",
                 "games": [
                     {
                         "name": "Add arrays of 1's up to 5x5",
@@ -443,6 +426,18 @@
                         "slug": "add-and-subtract-within-100-with-brix-unknowns-anywhere",
                         "url": "/2nd-grade/add-and-subtract-within-100-with-brix-unknowns-anywhere",
                         "image": "add-sub-within-100-unknowns-anywhere"
+                    },
+                    {
+                        "name": "Determine if a number within 20 is odd or even",
+                        "slug": "determine-if-a-number-within-20-is-odd-or-even",
+                        "url": "/2nd-grade/determine-if-a-number-within-20-is-odd-or-even",
+                        "image": "odd-or-even-20"
+                    },
+                    {
+                        "name": "Express an even number as two equal addends",
+                        "slug": "express-an-even-number-as-two-equal-addends",
+                        "url": "/2nd-grade/express-an-even-number-as-two-equal-addends",
+                        "image": "even-num-split"
                     },
                     {
                         "name": "Add and subtract fluently within 100 using brix",
