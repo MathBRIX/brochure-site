@@ -28,19 +28,22 @@
 
   <div class="mv4">
 
+    {{ $colors := $.Site.Data.learnmore.colors }}
+
     <h2 class="f4 f3-ns normal">Games by grade level</h2>
 
-    {{ range $.Site.Data.learnmore.gradegames }}
-      <div class="fl w-100 w-33-l pr3 pb3 mid-gray">
-        <div class="pa3 ba br3 b--mb-{{ .color }}">
-          <h3 class="mt0 mb-{{ .color }}">{{ .title }}</h3>
-          <p>{{ .description }}</p>
-          <a class="mb-blue no-underline dim" href="/games/#{{ .anchorlink }}">See all games &rarr;</a>
+    <div class="flex flex-wrap">
+      {{ range $index, $value := $.Site.Data.grades }}
+        {{ $color := index $colors (mod $index (len $colors)) }}
+        <div class="w-100 w-33-l">
+          <div class="mr3 mb3 pa3 ba br3 b--mb-{{ $color }} mid-gray">
+            <h3 class="mt0 mb-{{ $color }}">{{ $value.alternate_name }}</h3>
+            <p>{{ $value.short_description }}</p>
+            <a class="mb-blue no-underline dim" href="/games/#{{ $value.slug }}">See all games &rarr;</a>
+          </div>
         </div>
-      </div>
-    {{ end }}
-
-    <div class="cb"></div>
+      {{ end }}
+    </div>
 
   </div>
 
@@ -48,17 +51,19 @@
 
     <h2 class="f4 f3-ns normal">Games by category</h2>
 
-    {{ range $.Site.Data.learnmore.categorygames }}
-      <div class="fl w-100 w-33-l pr3 pb3 mid-gray">
-        <div class="pa3 ba br3 b--mb-{{ .color }}">
-          <h3 class="mt0 mb-{{ .color }}">{{ .title }}</h3>
-          <p>{{ .description }}</p>
-          <a class="mb-blue no-underline dim" href="/skills/{{ urlize .title }}">See all games &rarr;</a>
+    <div class="flex flex-wrap">
+      {{ range $index, $value := $.Site.Data.skills }}
+        {{ $category := $value.category }}
+        {{ $color := index $colors (mod $index (len $colors)) }}
+        <div class="w-100 w-33-l">
+          <div class="mr3 mb3 pa3 ba br3 b--mb-{{ $color }} mid-gray">
+            <h3 class="mt0 mb-{{ $color }}">{{ $category.name }}</h3>
+            <p>{{ $category.short_description }}</p>
+            <a class="mb-blue no-underline dim" href="/skills/{{ urlize $category.name }}">See all games &rarr;</a>
+          </div>
         </div>
-      </div>
-    {{ end }}
-
-    <div class="cb"></div>
+      {{ end }}
+    </div>
 
   </div>
 

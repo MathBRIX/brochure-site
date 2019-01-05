@@ -3,7 +3,8 @@
         "category": {
             "name": "Counting",
             "title": "Counting Games",
-            "description": "The ability to count numbers is a basic prerequisite to all further explorations of mathematics. In these games, students discover one-to-one correspondence and learn to associate numbers with both written numerals and spoken number names."
+            "full_description": "The ability to count numbers is a basic prerequisite to all further explorations of mathematics. In these games, students discover one-to-one correspondence and learn to associate numbers with both written numerals and spoken number names.",
+            "short_description": "Discover 1-to-1 correspondence and learn to associate written numerals with spoken numbers."
         },
         "games": [
             {
@@ -24,7 +25,8 @@
         "category": {
             "name": "Number Recognition",
             "title": "Number Recognition Games",
-            "description": "Particularly when a student is just starting-out in mathematics, it is essential that they be able to correctly identify written numerals and connect them with quantities as well as spoken numbers. These games are designed to give children practice identifying numbers presented in a number of different ways."
+            "full_description": "Particularly when a student is just starting-out in mathematics, it is essential that they be able to correctly identify written numerals and connect them with quantities as well as spoken numbers. These games are designed to give children practice identifying numbers presented in a number of different ways.",
+            "short_description": "Practice identifying numbers presented in a variety of different formats."
         },
         "games": [
             {
@@ -39,7 +41,8 @@
         "category": {
             "name": "Number Sense",
             "title": "Number Sense Games",
-            "description": "Number sense is an intuitive understanding of numbers, their relative magnitude, and other relationships between them (order, patterns, etc.).  These games are designed to build upon a child's innate number sense and lay the foundation for operations and algebraic thinking."
+            "full_description": "Number sense is an intuitive understanding of numbers, their relative magnitude, and other relationships between them (order, patterns, etc.).  These games are designed to build upon a child's innate number sense and lay the foundation for operations and algebraic thinking.",
+            "short_description": "Develop an intuitive understanding of numbers and the relationships between them."
         },
         "games": [
             {
@@ -72,7 +75,8 @@
         "category": {
             "name": "Comparison",
             "title": "Comparison Games (Greater Than, Less Than, Equal)",
-            "description": "A subset of number sense games, these comparisons games are aimed at helping kids strengthen their comprehension of the relative magnitude of different numbers, and also to practice using mathematical symbols such as the greater-than, less-than, and equals signs."
+            "full_description": "A subset of number sense games, these comparisons games are aimed at helping kids strengthen their comprehension of the relative magnitude of different numbers, and also to practice using mathematical symbols such as the greater-than, less-than, and equals signs.",
+            "short_description": "Strengthen comprehension of the relative magnitude of different numbers and practice using the greater-than, less-than, and equals signs."
         },
         "games": [
             {
@@ -129,7 +133,8 @@
         "category": {
             "name": "Classification",
             "title": "Classification Games",
-            "description": "The ability to process information and think critically is a key component of a child's mathematic success. These games are designed to help build a child's critical thinking and problem-solving skills, classifying different items by attributes and sorting them into categories."
+            "full_description": "The ability to process information and think critically is a key component of a child's mathematic success. These games are designed to help build a child's critical thinking and problem-solving skills, classifying different items by attributes and sorting them into categories.",
+            "short_description": "Build critical thinking and problem-solving skills by classifying and sorting items with various attributes."
         },
         "games": [
             {
@@ -150,7 +155,8 @@
         "category": {
             "name": "Operations and Algebraic Thinking",
             "title": "Operations and Algebraic Thinking Games",
-            "description": "The ability to add, subtract, multiply and divide are the cornerstone of elementary mathematics. In MathBRIX, kids practice operations using virtual manipulatives (Brix) to solve problems. This approach to solving operations is helpful for a number of reasons: 1) it provides children with visual context for the problems they are solving and 2) it gives them insight into why different algebraic strategies (composing numbers, decomposing numbers, making 10, etc.) actually work."
+            "full_description": "The ability to add, subtract, multiply and divide are the cornerstone of elementary mathematics. In MathBRIX, kids practice operations using virtual manipulatives (Brix) to solve problems. This approach to solving operations is helpful for a number of reasons: 1) it provides children with visual context for the problems they are solving and 2) it gives them insight into why different algebraic strategies (composing numbers, decomposing numbers, making 10, etc.) actually work.",
+            "short_description": "Learn the cornerstones of elementary mathematics with addition, subtraction, and pre-multiplication."
         },
         "games": [
             {
@@ -315,7 +321,8 @@
         "category": {
             "name": "Place Value",
             "title": "Place Value Games",
-            "description": "When children begin learning numbers 10 and larger, a key concept to understand is how numbers can be broken down into a number of 'places' (e.g. the 'one’s place', 'tens place', 'hundreds place', etc.) and also how these individual places can be added and subtracted somewhat independently. These games are designed not only to provide kid with the opportunity to practice place value concepts, but also to help students visualize the different orders of magnitude."
+            "full_description": "When children begin learning numbers 10 and larger, a key concept to understand is how numbers can be broken down into a number of 'places' (e.g. the 'one’s place', 'tens place', 'hundreds place', etc.) and also how these individual places can be added and subtracted somewhat independently. These games are designed not only to provide kid with the opportunity to practice place value concepts, but also to help students visualize the different orders of magnitude.",
+            "short_description": "Practice place value concepts and visualize the different orders of magnitude."
         },
         "games": [
             {
@@ -432,7 +439,8 @@
         "category": {
             "name": "Enrichment",
             "title": "Math Enrichment Games and Brain Teasers",
-            "description": "Unconventional approaches to math often make for very fun and engaging puzzles. Learning to attack the same problem in multiple ways can also be beneficial to a student's growth. The following are a selection of fun games and brain teasers that use math in unexpected ways."
+            "full_description": "Unconventional approaches to math often make for very fun and engaging puzzles. Learning to attack the same problem in multiple ways can also be beneficial to a student's growth. The following are a selection of fun games and brain teasers that use math in unexpected ways.",
+            "short_description": "Use math in unexpected ways and reinforce creative problem solving with fun games and brain teasers."
         },
         "games": [
             {

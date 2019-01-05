@@ -24,7 +24,7 @@
       <a class="red no-underline dim" href="{{ $.URL }}{{ urlize .category.name }}">{{ .category.title }}</a>
     </h2>
 
-    <p class="w-100 w-80-l mt0 f5 f4-ns lh-copy">{{ .category.description }}</p>
+    <p class="w-100 w-80-l mt0 f5 f4-ns lh-copy">{{ .category.full_description }}</p>
 
     <div class="flex flex-wrap">
       {{ range .games }}

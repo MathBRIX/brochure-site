@@ -10,10 +10,9 @@ const writeFile = promisify(fs.writeFile);
 
 
 const REPO_ROOT = '..';
-
 const GAMES_ROOT = 'games';
-
 const SKILLS_ROOT = 'skills';
+const GRADES_ROOT = 'grades';
 
 const grades = ['Kindergarten', 'Grade 1', 'Grade 2'];
 
@@ -82,6 +81,7 @@ const clearDirectory = async function(dir) {
 
 Object.assign(exports, {
   GAMES_ROOT,
+  GRADES_ROOT,
   REPO_ROOT,
   SKILLS_ROOT,
   grades,

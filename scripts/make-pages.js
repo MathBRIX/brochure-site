@@ -7,6 +7,7 @@ const s3 = require('s3');
 const util = require('util');
 const {
   GAMES_ROOT,
+  GRADES_ROOT,
   REPO_ROOT,
   SKILLS_ROOT,
   grades,
@@ -33,6 +34,8 @@ async function main() {
 
   const skillData = await writeSkillsData(data);
   createSkillPages(skillData);
+
+  writeGradesData(data);
 }
 
 
@@ -111,6 +114,13 @@ const writeSkillsData = async function(data) {
 }
 
 
+// Create the grade levels data file
+const writeGradesData = async function(data) {
+  const fileData = JSON.stringify(data.grades, null, 4);
+  return await writeFile(`${REPO_ROOT}/site/data/${GRADES_ROOT}.json`, fileData);
+}
+
+
 // Create the individual game pages
 const createGamePages = async function(data) {
   const { games } = data;
@@ -174,7 +184,7 @@ const createSkillPages = async function(categoryData) {
       '+++',
       `title = "${category.title} | MathBRIX"`,
       `pagetitle = "${category.title}"`,
-      `description = "${category.description}"`,
+      `description = "${category.full_description}"`,
       `url = "/${SKILLS_ROOT}/${slugify(category.name)}"`,
       '+++'
     ].join('\n');
