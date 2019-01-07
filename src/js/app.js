@@ -33,7 +33,7 @@ function mobileNav() {
     return false;
   });
 
-  $('#hide-mobile-nav').on('click', function() {
+  $('#hide-mobile-nav', '#mobile-nav a').on('click', function() {
     $('#mobile-nav').css('left', '-100%');
     return false;
   });
