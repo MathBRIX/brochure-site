@@ -1,7 +1,7 @@
 colors = ["red", "orange", "california", "yellow", "atlantis", "green", "mountain-meadow", "light-blue", "pelorous", "violet", "pink"]
 
 [[features]]
-title = "Early Education"
+title = "Early Childhood"
 description = "MathBRIX is built specifically for early elementary, shown by research to be a critical time for developing math skills."
 icon = "/early-learning-icon.png"
 
