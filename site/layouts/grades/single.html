@@ -12,7 +12,7 @@
 
   <p class="w-100 w-80-l mt0 f5 f4-ns lh-copy">{{ .Description }}</p>
 
-  {{ $gradeData := index (where $.Site.Data.games._index "grade" .Params.name) 0 }}
+  {{ $gradeData := index (where $.Site.Data.games._index "grade" .Params.alternatename2) 0 }}
 
   {{ range $gradeData.categories }}
 

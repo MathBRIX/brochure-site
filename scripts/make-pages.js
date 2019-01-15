@@ -177,6 +177,8 @@ const createGradePages = async function (data) {
     const data = [
       '+++',
       `name = "${grade.name}"`,
+      `alternatename = "${grade.alternate_name}"`,
+      `alternatename2 = "${grade.alternate_name_2}"`,
       `title = "${grade.serp_title}"`,
       `pagetitle = "${grade.page_title}"`,
       `description = "${grade.full_description}"`,
