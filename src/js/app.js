@@ -58,6 +58,18 @@ function videoModal() {
   new Plyr('#splashreel');
 }
 
+// Create players for MathBRIX Academy videos
+
+function onboardingVideos() {
+  const selector = '.onboarding-video';
+
+  if (!$(selector).length) {
+    return;
+  }
+
+  new Plyr.setup(selector);
+}
+
 // Create pricing slider
 
 function pricingSlider() {
@@ -111,6 +123,7 @@ function gameDemo() {
 $(document).ready(function() {
   mobileNav();
   videoModal();
+  onboardingVideos();
   pricingSlider();
   gameDemo();
 });
