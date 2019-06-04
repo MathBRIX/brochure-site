@@ -17,7 +17,7 @@ const writeFile = util.promisify(fs.writeFile);
 
 const writeRedirects = async function() {
   let { games } = await downloadGameData();
-  games = games.sort((a, b) => a.levelIndex - b.levelIndex);
+  games = games.sort((a, b) => a.level_index - b.level_index);
 
   const redirects = Object.assign(
     {

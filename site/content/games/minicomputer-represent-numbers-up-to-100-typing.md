@@ -1,5 +1,5 @@
 +++
-airtableid = "recPr6upR8ZHemsye"
+uniqueid = "1LAvXZLTc4RZmdcBlwn6"
 title = "Type numbers up to 100 - brain teaser | MathBRIX"
 pagetitle = "Minicomputer: Represent numbers up to 100 (Typing)"
 description = "In this exercise, the sixth in the minicomputer series, kids learn to interpret numbers within 100, using two minicomputer boards. Play free online now!"

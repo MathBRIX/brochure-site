@@ -67,7 +67,7 @@ const writeGamesListData = async function(data) {
           name: category.name,
           games: gradeGames
             .filter(game => game.category === category.name)
-            .sort((a, b) => a.levelIndex - b.levelIndex)
+            .sort((a, b) => a.level_index - b.level_index)
             .map(game => _gameData(game))
         };
       })
@@ -109,7 +109,7 @@ const writeSkillsData = async function(data) {
         category,
         games: games
           .filter(game => game.category === category.name)
-          .sort((a, b) => a.levelIndex - b.levelIndex)
+          .sort((a, b) => a.level_index - b.level_index)
           .map(game => _gameData(game))
       };
     })
@@ -148,7 +148,7 @@ const createGamePages = async function(data) {
   for (const game of games) {
     const data = [
       '+++',
-      `airtableid = "${game.airtable_id}"`,
+      `uniqueid = "${game.unique_id}"`,
       `title = "${game.serp_title}"`,
       `pagetitle = "${game.page_title}"`,
       `description = "${game.serp_description}"`,
