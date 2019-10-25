@@ -1,5 +1,5 @@
 +++
-airtableid = "undefined"
+uniqueid = "tAB13Vd7Wfzi5jvaYdd7"
 title = "Compare a number and expression using subtraction | MathBRIX"
 pagetitle = "Compare a number to a number sentence (subtraction only)"
 description = "In this quick module, kids visually compare sets of brix to decide if a subtraction sentence and whole number are equivalent. Play free online now!"
