@@ -1,5 +1,5 @@
 +++
-airtableid = "undefined"
+uniqueid = "HwDZAgB4edkfQV8D9bFF"
 title = "Compare numerals and objects up to 10 | MathBRIX"
 pagetitle = "Compare numerals and sets of objects, up to 10"
 description = "In this educational module, students cement the relationship between numbers and quantity by comparing numbers up to 10 to sets of objects. Play free now!"

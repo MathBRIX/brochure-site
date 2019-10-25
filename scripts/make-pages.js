@@ -148,7 +148,7 @@ const createGamePages = async function(data) {
   for (const game of games) {
     const data = [
       '+++',
-      `airtableid = "${game.airtable_id}"`,
+      `uniqueid = "${game.unique_id}"`,
       `title = "${game.serp_title}"`,
       `pagetitle = "${game.page_title}"`,
       `description = "${game.serp_description}"`,
