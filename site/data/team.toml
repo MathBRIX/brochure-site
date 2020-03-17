@@ -11,12 +11,6 @@ linkedin = "https://www.linkedin.com/in/tyler-schwartz-87848298/"
 image_file = "/tyler-schwartz.jpg"
 
 [[employees]]
-name = "Jaydev Mahadevan"
-bio = "CTO, Led development teams in Fortune 1000 company and startups"
-linkedin = "https://www.linkedin.com/in/jaydevmahadevan/"
-image_file = "/jaydev-mahadevan.jpg"
-
-[[employees]]
 name = "Dr. Chris L. Nicastro"
 bio = "Strategic Partnerships, Former MO Commissioner Education, Former Superintendent"
 linkedin = "https://www.linkedin.com/in/chris-lee-nicastro-6baa1272/"
