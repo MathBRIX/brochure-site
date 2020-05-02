@@ -89,10 +89,10 @@ function pricingSlider() {
     const val = parseInt(values[0]);
     $('#num-students').html(val);
 
-    const baseQuantity = 25;
-    const basePrice = 99;
+    const baseQuantity = 20;
+    const basePrice = 60;
     const addonQuantity = 1;
-    const addonPrice = 3.95;
+    const addonPrice = 3;
     const extraStudents = Math.max(val - baseQuantity, 0);
     const totalPrice = basePrice + addonPrice * Math.ceil(extraStudents / addonQuantity);
     const formattedPrice = Math.round(totalPrice) === totalPrice ?
