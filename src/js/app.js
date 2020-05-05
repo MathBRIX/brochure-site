@@ -82,17 +82,17 @@ function pricingSlider() {
       min: 1,
       max: 100
     },
-    start: 20,
+    start: 4,
     step: 1,
     connect: 'lower'
   }).on('update', function(values) {
     const val = parseInt(values[0]);
     $('#num-students').html(val);
 
-    const baseQuantity = 25;
-    const basePrice = 99;
+    const baseQuantity = 4;
+    const basePrice = 16;
     const addonQuantity = 1;
-    const addonPrice = 3.95;
+    const addonPrice = 4;
     const extraStudents = Math.max(val - baseQuantity, 0);
     const totalPrice = basePrice + addonPrice * Math.ceil(extraStudents / addonQuantity);
     const formattedPrice = Math.round(totalPrice) === totalPrice ?
