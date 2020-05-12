@@ -141,7 +141,7 @@ body {
               0 5px 15px rgba(0,0,0,.1);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1064px) {
   .dn-l {              display: block !important; }
   .db-l {              display: none !important; }
   .w-50-l {            width: 100% !important; }
