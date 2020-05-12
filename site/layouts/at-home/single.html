@@ -51,7 +51,7 @@
     <div class="flex flex-wrap">
       {{ range $index, $grade := $.Site.Data.grades }}
         {{ $color := index $colors (mod $index (len $colors)) }}
-        <div class="w-100 w-33-l">
+        <div class="w-100 w-33-l w-100-ipad">
           <div class="mr3 mb3 pa3 ba br3 b--mb-{{ $color }} mid-gray">
             <h3 class="mt0 mb-{{ $color }}">{{ $grade.alternate_name }}</h3>
             <p>{{ $grade.short_description }}</p>
@@ -71,7 +71,7 @@
       {{ range $index, $value := $.Site.Data.skills }}
         {{ $category := $value.category }}
         {{ $color := index $colors (mod $index (len $colors)) }}
-        <div class="w-100 w-33-l">
+        <div class="w-100 w-33-l w-100-ipad">
           <div class="mr3 mb3 pa3 ba br3 b--mb-{{ $color }} mid-gray">
             <h3 class="mt0 mb-{{ $color }}">{{ $category.name }}</h3>
             <p>{{ $category.short_description }}</p>

@@ -141,6 +141,15 @@ body {
               0 5px 15px rgba(0,0,0,.1);
 }
 
+@media screen and (max-width: 1064px) {
+  .dn-l {              display: block !important; }
+  .db-l {              display: none !important; }
+  .w-50-l {            width: 100% !important; }
+  .w-50-l > img {      display: block;
+                       margin: auto; }
+  .w-100-ipad {        width: 100% !important; }
+}
+
 /* Home */
 
 #banner {
