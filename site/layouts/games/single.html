@@ -19,9 +19,18 @@
 
   <h1 class="f3 f2-ns normal ttu tracked black">{{ .Params.pagetitle }}</h1>
 
-  <div class="flex">
+  <!-- <div class="flex">
     <iframe id="game-demo" class="flex-auto bn" src="https://play.mathbrix.com?uid={{ .Params.uniqueid }}&demo=true" allow="autoplay"></iframe>
-  </div>
+  </div> -->
+
+<div style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    id="game-demo"
+    src="https://play.mathbrix.com?uid={{ .Params.uniqueid }}&demo=true"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    allow="autoplay">
+  </iframe>
+</div>
 
   <!-- App store image link that we will conditionally show to mobile users -->
   <a id="app-link-thumbnail" class="dn relative" href="https://itunes.apple.com/us/app/mathbrix/id1220515455">
