@@ -10,15 +10,15 @@ bio = "COO, Marketing, Award-winning Digital Media Producer"
 linkedin = "https://www.linkedin.com/in/tyler-schwartz-87848298/"
 image_file = "/tyler-schwartz.jpg"
 
-[[employees]]
+[[advisors]]
 name = "Dr. Chris L. Nicastro"
-bio = "Strategic Partnerships, Former MO Commissioner Education, Former Superintendent"
+bio = "Former MO Commissioner Education, Former Superintendent"
 linkedin = "https://www.linkedin.com/in/chris-lee-nicastro-6baa1272/"
 image_file = "/chris-nicastro.jpg"
 
-[[employees]]
+[[advisors]]
 name = "Dr. Valri Bieniek"
-bio = "Lead Math Coach, Suburban/Urban Experience, Online Education"
+bio = "Suburban/Urban Experience, Online Education"
 linkedin = "https://www.linkedin.com/in/valribieniek/"
 image_file = "/valri-bieniek.jpg"
 
