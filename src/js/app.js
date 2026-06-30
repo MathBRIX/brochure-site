@@ -12,13 +12,19 @@ const options = {
   openOn: 'hover'
 };
 
-['product', 'company', 'login'].forEach(function(section) {
-  new Drop(
-    Object.assign({
-      target: document.querySelector(`#${section}`),
-      content: document.querySelector(`#${section}-dropdown`)
-    }, options)
-  );
+['product'].forEach(function(section) { 
+  const targetEl = document.querySelector(`#${section}`);
+  const dropdownEl = document.querySelector(`#${section}-dropdown`);
+
+  // Only initialize Drop if both elements actually exist on the page
+  if (targetEl && dropdownEl) {
+    new Drop(
+      Object.assign({
+        target: targetEl,
+        content: dropdownEl
+      }, options)
+    );
+  }
 });
 
 // Toggle mobile navigation
